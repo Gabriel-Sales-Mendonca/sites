@@ -1,0 +1,118 @@
+:root {
+    --primary-color: rgb(14, 94, 137);
+    --primary-color-dark: rgb(9, 64, 94);
+    --second-color: rgb(241, 245, 247); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.container {
+    background-color: var(--second-color);
+    box-sizing: border-box;
+    max-width: 70rem;
+    margin: 10vh auto;
+    padding: 3rem;
+}
+
+.relogio {
+    margin: 1rem 0rem;
+    font-size: 6rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+}
+
+.calculadora {
+    width: 40rem;
+    margin-top: 2rem;
+}
+
+.display{
+    font-size: 5rem;
+    text-align: right;
+}
+
+.btn {
+    font-size: 2rem;
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(221, 217, 217);
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkgrey;
+}
+
+.btn-op{
+    background-color: rgba(98, 231, 231, 0.645);
+}
+
+.btn-op:hover {
+    background-color: rgb(68, 209, 209);
+}
+
+.btn-eq {
+    background-color: rgb(155, 224, 86);
+}
+
+.btn-eq:hover {
+    background-color: rgb(122, 236, 7);
+}
+
+.btn-del, .btn-clear {
+    background-color: rgb(208, 143, 156);
+}
+
+.btn-del:hover, .btn-clear:hover {
+    background-color: rgb(224, 76, 105);
+}
+
+@media (max-width: 550px) {
+    .calculadora {
+        width: 30rem;
+        margin: 2rem auto;
+    }
+
+    .display{
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: right;
+    }
+
+    .btn {
+        font-size: 3rem;
+        width: 100%;
+        height: 6rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .calculadora {
+        width: 20rem;
+        margin: 2rem auto;
+    }
+}
