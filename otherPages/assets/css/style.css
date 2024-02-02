@@ -1,0 +1,79 @@
+:root {
+    --primary-color: rgb(14, 94, 137);
+    --primary-color-dark: rgb(9, 64, 94);
+    --second-color: rgb(241, 245, 247); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--primary-color);
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.container {
+    background-color: var(--second-color);
+    box-sizing: border-box;
+    max-width: 70rem;
+    margin: 10vh auto;
+    padding: 3rem;
+}
+
+.requisitos {
+    margin: 0rem 0rem 2rem 3rem;
+}
+
+.formulario label {
+    display: block;
+}
+
+.formulario input {
+    box-sizing: border-box;
+    margin-top: 1rem;
+    color: rgb(54, 53, 53);
+    font-size: 1.8rem;
+    padding: 0.5rem 0rem 0.5rem 1rem;
+    width: 100%;
+}
+
+.formulario label {
+    margin-top: 1rem;
+}
+
+.formulario button {
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    font-size: 1.8rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    padding: 1rem 0rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: green;
+    color: var(--second-color);
+}
+
+.erros {
+    color: red;
+    font-size: 1.2rem;
+}
