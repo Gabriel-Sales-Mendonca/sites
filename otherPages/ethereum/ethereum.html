@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethereum</title>
+    <link rel="stylesheet" href="assests/css/style.css">
+</head>
+<body>
+    <input type="checkbox" name="close-menu" id="close-menu" class="close-menu">
+    <label for="close-menu" class="close-menu-label"></label>
+
+    <aside class="menu">
+        <nav class="menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false"><a href="#home">ETHEREUM</a></h1>
+            <ul onclick="getElementById('close-menu').checked = false">
+                <li><a href="#intro">Introdução</a></li>
+                <li><a href="#top3">Top 3</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#table">Preço</a></li>
+                <li><a href="#contact">Newsletter</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <section class="section main-bg">
+        <div class="main-content" id="home">
+            <section>
+                <div class="content-intro-left">
+                    <h1>Ethereum</h1>
+                    <p>A plataforma Ethereum é conhecida por sua capacidade de executar “contratos inteligentes”, que são programas de computador que podem ser executados automaticamente quando determinadas condições são atendidas. Esses contratos inteligentes são usados para criar uma ampla gama de aplicações descentralizadas (DApps) que incluem tudo, desde jogos até sistemas financeiros.</p><br>
+
+                    <p>Além disso, o Ethereum também introduziu o conceito de tokens não fungíveis (NFTs), que podem ser usados para representar a propriedade de itens únicos e ativos digitais.</p>
+                </div>
+                <div class="content-intro-right">
+                    <img src="assests/img/image-ether.svg" alt="Duas pessoas apontando para o símbolo do Ethereum">
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="main-content" id="intro">
+        <section class="container-intro">
+            <div>
+                <h2>EVM</h2>
+                <p>A Máquina Virtual Ethereum (EVM) é uma parte crucial da arquitetura Ethereum. Ela é uma máquina virtual Turing completa que você pode acessar de qualquer parte do mundo por meio de um nó de rede. A EVM é responsável por executar e manter o código dos contratos inteligentes.</p><br>
+
+                <p>A EVM é tanto uma máquina virtual quanto uma máquina de estado. Como uma máquina virtual, ela não está vinculada a dispositivos físicos específicos, nem possui interfaces e hardware. Ela aproveita o poder de computação de vários participantes (nós) para criar um ambiente de execução para a criação e implantação de contratos inteligentes.</p><br>
+                    
+                <p>Como uma máquina de estado, a EVM é um mecanismo de computação que muda entre estados. Quando você envia uma solicitação de transação para um contrato inteligente, a EVM altera o estado do Ethereum para responder à sua chamada. A capacidade da EVM de interpretar e implementar solicitações de contratos inteligentes distingue o Ethereum de outras redes, como o Bitcoin.</p><br>
+                    
+                <p>A EVM define as regras para calcular um novo estado válido de bloco para bloco. Dado um estado válido antigo (S) e um novo conjunto de transações válidas (T), a função de transição de estado do Ethereum Y (S, T) produz um novo estado válido.</p><br>
+                    
+                <p>Ao longo de muitos anos de história do Ethereum, a EVM passou por várias revisões e existem várias implementações da EVM em várias linguagens de programação.</p><br>
+            </div>
+        </section>
+    </section>
+
+    <section class="section main-bg">
+        <div class="main-content" id="top3">
+            <div class="top3-container">
+                <div class="top3-content">
+                    <h2>TOP 3 Dapps</h2>
+                    <p>3 dos maiores dapps do ecossistema da Ethereum!</p>
+                    <article class="grid">
+                        <div>
+                            <h3>Uniswap</h3>
+                            <p>A Uniswap é uma corretora descentralizada que usa o modelo AMM para as negociações, ela permite com que qualquer pessoa possa trocar uma moeda por outra sem pedir permissão, e através da Uniswap qualquer pessoa pode se tornar um formador de mercado para prover liquidez para as pessoas que negociam e ganhar taxas com isso.</p>
+                        </div>
+                        <div>
+                            <h3>AAVE</h3>
+                            <p>Aave é um protocolo de finanças descentralizado que permite aos usuários emprestar e tomar empréstimos de criptomoedas. Ele suporta várias redes, incluindo Ethereum, Polygon, Optimism, Arbitrum e Metis, e é governado por uma comunidade de mais de 100.000 detentores de tokens. Aave também possui um módulo de segurança para proteger contra a insolvência do protocolo.</p>
+                        </div>
+                        <div>
+                            <h3>Lido Finance</h3>
+                            <p>Lido Finance é um protocolo de finanças descentralizadas que fornece liquidez para ativos apostados no ecossistema Ethereum. Ele opera como uma infraestrutura de apostas descentralizada para Ethereum 2.0, confiando em uma rede de validadores profissionais. Lido tokeniza ativos apostados através da emissão de tokens stETH, que representam a parte do usuário no ETH apostado e as recompensas associadas. A governança é realizada por uma organização autônoma descentralizada (DAO) que detém o poder de voto dos tokens de governança (LDO).</p>
+                        </div> 
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="main-content gallery-content" id="gallery">
+            <div class="title-gallery">
+                <h2>Galeria</h2>
+                <p>Somente algumas imagens aleatórias.</p>
+            </div>
+            <div class="grid">
+                <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=0" alt="random image">
+                </div>
+                <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image">
+                </div>
+                <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image">
+                </div>
+                <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image">
+                </div>
+                <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image">
+                </div>
+                <div class="gallery-img">
+                <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-content" id="table">
+        <section class="container-intro">
+            <div>
+                <h2>Ethereum</h2>
+                <p>A Ethereum, lançada em 2015, começou como uma plataforma de código aberto para aplicações descentralizadas (dApps) e contratos inteligentes. Em 2022, a Ethereum passou por uma atualização significativa chamada "The Merge" ou "Paris", que marcou a transição do algoritmo de mineração proof-of-work para o proof-of-stake. Esta foi uma das atualizações mais significativas na história da Ethereum. Em abril de 2023, a Ethereum passou por duas atualizações importantes, "Shanghai" e "Capella", que trouxeram a funcionalidade de retirada de apostas para a camada de execução. Isso permitiu que os apostadores retirassem seu ETH da Beacon Chain para a camada de execução. A evolução da Ethereum tem sido marcada por inovações contínuas para melhorar a escalabilidade, segurança e funcionalidade da plataforma.</p>
+            </div>
+            <div class="responsive-table">
+                <table>
+                    <caption>Tabela de Preços</caption>
+                    <thead>
+                        <th>ANO</th>
+                        <th>PREÇO</th>
+                        <th>ANO</th>
+                        <th>PREÇO</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2015</td>
+                            <td>menos de $1 USD</td>
+                            <td>2020</td>
+                            <td>$92 USD</td>
+                        </tr>
+                        <tr>
+                            <td>2016</td>
+                            <td>$7 USD</td>
+                            <td>2021</td>
+                            <td>$717 USD</td>
+                        </tr>
+                        <tr>
+                            <td>2017</td>
+                            <td>$7 USD</td>
+                            <td>2022</td>
+                            <td>$887 USD</td>
+                        </tr>
+                        <tr>
+                            <td>2018</td>
+                            <td>$70 USD</td>
+                            <td>2023</td>
+                            <td>$1193 USD</td>
+                        </tr>
+                        <tr>
+                            <td>2019</td>
+                            <td>$100 USD</td>
+                            <td>2024</td>
+                            <td>?</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="footer-table">
+                        <td colspan="5">Preço mínimo do Ether desde 2015</td>
+                    </tfoot>
+                </table>
+            </div>
+        </section>
+    </section>
+
+    <section class="section main-bg section-contact">
+        <div class="grid-contact" id="contact">
+            <div class="grid-content">
+                <h1>Ethereum</h1>
+                <p>Inscreva-se para receber atualizações e novidades sobre a Ethereum...</p>
+            </div>
+            <div class="grid-content">
+                <img src="assests/img/image-ether.svg" alt="Duas pessoas apontando para o símbolo do Ethereum">
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <fieldset class="form-grid">
+                        <legend>Entre em contato</legend>
+
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" placeholder="Seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="last-name">Sobrenome:</label>
+                            <input type="text" id="last-name" placeholder="Seu sobrenome">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" placeholder="Seu e-mail" required>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="message">Mensagem:</label>
+                            <textarea name="" id="message" cols="30" rows="10" placeholder="Sua uma mensagem..."></textarea>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <button type="submit">Enviar formulário</button>
+                            <button type="reset">Resetar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>Feito com ❤ por Gabriel Sales</p>
+    </footer>
+
+    <a href="#home" class="back-to-top">➜</a>
+</body>
+</html>

@@ -56,6 +56,7 @@ h2 {
 .grid a {
     height: 100%;
     width: 100%;
+    text-decoration: none;
 }
 
 .grid h2{
@@ -64,4 +65,16 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.grid img {
+    border-radius: 2rem;
+    height: 90%;
+    width: 100%;
+    margin: auto;
+}
+
+.repositorio {
+    font-weight: bold;
+    margin-top: 3rem;
 }
