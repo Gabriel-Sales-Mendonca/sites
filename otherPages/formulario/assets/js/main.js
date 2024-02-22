@@ -18,7 +18,6 @@ class ValidaFormulario {
 
         if(camposValidos) {
             alert('Formulário enviado.')
-            this.formulario.submit()
         }
     }
 
@@ -29,7 +28,7 @@ class ValidaFormulario {
             erro.remove()
         }
 
-        for(let input of this.inputs) { // Faz a iteração emcima de cada campo do formulário, ou seja cada input
+        for(let input of this.inputs) { // Faz a iteração em cima de cada campo do formulário, ou seja cada input
 
             let label = input.previousElementSibling.innerText
             if(!input.value.trim()) { // Verifica os campos que estão vazios
