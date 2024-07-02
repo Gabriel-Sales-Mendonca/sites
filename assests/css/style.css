@@ -1,6 +1,5 @@
 :root {
-    --primary-color: rgb(14, 94, 137);
-    --primary-color-dark: rgb(9, 64, 94);
+    --primary-color: rgb(4, 251, 251);
     --second-color: rgb(241, 245, 247); 
 }
 
@@ -14,37 +13,54 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: var(--primary-color);
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2 {
     font-size: 2rem;
+    font-family: monospace;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/endless-constellation.svg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .container {
-    background-color: var(--second-color);
+    color: var(--second-color);
     box-sizing: border-box;
     max-width: 90rem;
-    margin: 10vh auto;
+    margin: 5vh auto;
     padding: 3rem;
 }
 
-.titulo {
+.title {
+    font-family: monospace;
+    font-size: 4rem;
+    color: var(--primary-color);
     text-align: center;
 }
 
-.introducao {
+.introduction {
     text-align: center;
-    color: var(--primary-color);
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
     margin: 2rem 0;
+}
+
+.description strong{
+    color: var(--primary-color);
+}
+
+.links {
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.links img {
+    height: 5rem;
+    margin: 0rem 1rem;
+}
+
+.projects {
+    margin: 5vh 0vh;
+    text-align: center;
+    font-size: 2.8rem;
 }
 
 .grid {
@@ -62,21 +78,39 @@ h2 {
 .grid h2{
     background-color: var(--second-color);
     font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .grid img {
-    border-radius: 2rem;
     height: 90%;
     width: 100%;
     margin: auto;
 }
 
-.repositorio {
-    font-weight: bold;
-    margin-top: 3rem;
+.container-project {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 6%;
+    overflow: hidden;
+}
+
+.container-project:hover {
+    border: 0.2rem solid white;
+}
+
+.container-img {
+    height: 90%;
+    width: 100%;
+    margin: auto;
+}
+
+.description-project {
+    margin-top: -10%;
+    padding: 0.5rem 0rem;
+}
+
+.description-project h3 {
+    font-size: 2rem;
 }
 
 @media (width <= 450px) {
@@ -84,5 +118,9 @@ h2 {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
+    }
+
+    .introduction {
+        padding: 0rem 5rem;
     }
     }
