@@ -87,15 +87,15 @@ body {
 }
 
 .container-project {
-    background-color: white;
-    color: black;
+    background-color: var(--second-color);
+    color: rgb(5, 4, 4);
     text-align: center;
     border-radius: 6%;
     overflow: hidden;
 }
 
 .container-project:hover {
-    border: 0.2rem solid white;
+    border: 0.2rem solid var(--second-color);
 }
 
 .container-img {
