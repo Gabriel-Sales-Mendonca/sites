@@ -402,6 +402,27 @@ body .full-width {
     body .main-content {
         padding-top: 0rem;
     }
+
+    #home {
+        display: inline;
+    }
+
+    #home section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #home section .content-intro-left {
+        width: 80%;
+        margin-bottom: 5rem;
+    }
+    
+    .content-intro-right {
+        width: 80%;
+        min-height: auto;
+        display: block;
+    }    
+
 }
 
 @media (max-width: 290px) {
