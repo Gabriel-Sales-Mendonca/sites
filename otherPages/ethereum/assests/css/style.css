@@ -102,6 +102,10 @@ h1 {
     width: 40%;
 }
 
+.content-intro-left h1 {
+    color: aqua;
+} 
+
 .content-intro-right {
     color: white;
     width: 60%;
@@ -154,6 +158,10 @@ h1 {
 .top3-content h2 {
     font-size: 5.5rem;
     margin-bottom: 1rem;
+}
+
+.top3-content h3 {
+    color: aqua;
 }
 
 .grid {
@@ -209,12 +217,6 @@ h1 {
 }
 
 /*table*/
-.main-content .container-intro .responsive-table {
-    display: block;
-    overflow: hidden;
-    overflow-x: auto;
-}
-
 table {
     min-width: 360px;
     border-collapse: collapse;
@@ -231,12 +233,8 @@ table td, table th {
     border: 0.1rem solid black;
 }
 
-.footer-table {
-    text-align: right;
-}
-
 .footer-table, table thead {
-    background-color: blue;
+    background-color: #330033;
     color: white;
 }
 
@@ -354,6 +352,8 @@ body .full-width {
 @media (max-width: 800px) {
     .grid {
         grid-template-columns: 1fr;
+        gap: 5rem;
+        margin-top: 3rem;
     }
     .menu {
         bottom: 0;
@@ -400,7 +400,16 @@ body .full-width {
         content: "×";
     }
     body .main-content {
-        padding-top: 0rem;
+        padding: 0rem 2rem;
+    }
+
+    .main-content .container-intro {
+        width: 85%;
+    }
+
+    .main-content .container-intro div {
+        width: 100%;
+        text-align: start;
     }
 
     #home {
@@ -414,15 +423,28 @@ body .full-width {
 
     #home section .content-intro-left {
         width: 80%;
-        margin-bottom: 5rem;
+        margin: 5rem 0rem;
     }
     
     .content-intro-right {
         width: 80%;
         min-height: auto;
         display: block;
-    }    
+    }
 
+    table {
+        margin: 3rem 0rem;
+        min-width: 100%;
+    }
+
+    table td {
+        padding: 0.5rem 1rem;
+        font-size: 1.4rem;
+    }
+
+    .grid-contact {
+        padding: 0rem 2rem;
+    }
 }
 
 @media (max-width: 290px) {
