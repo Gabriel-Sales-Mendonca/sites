@@ -1,4 +1,5 @@
 # 🗂️ Meu Portfólio
+## Acessar: https://gabrielsales.netlify.app/
 # 🔍 Sobre o projeto
 Este é o site do meu Portfólio, onde consolido alguns dos meus projetos pessoais que já desenvolvi.
 
